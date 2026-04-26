@@ -1,0 +1,35 @@
+[
+  {
+    "image_path": "dataset/SOS_dataset/test\\palsar\\gt\\10001.png",
+    "oil_spill_detected": true,
+    "confidence_score": 0.5655106641352177,
+    "individual_scores": {
+      "deeplabv3_plus": 0.835,
+      "segnet": 0.035,
+      "hybrid": 0.887
+    },
+    "threshold_used": 0.5
+  },
+  {
+    "image_path": "dataset/SOS_dataset/test\\palsar\\gt\\10001_mask.png",
+    "oil_spill_detected": true,
+    "confidence_score": 0.5655106641352177,
+    "individual_scores": {
+      "deeplabv3_plus": 0.835,
+      "segnet": 0.035,
+      "hybrid": 0.887
+    },
+    "threshold_used": 0.5
+  },
+  {
+    "image_path": "dataset/SOS_dataset/test\\palsar\\gt\\10002_mask.png",
+    "oil_spill_detected": true,
+    "confidence_score": 0.6307547498494387,
+    "individual_scores": {
+      "deeplabv3_plus": 0.932,
+      "segnet": 0.111,
+      "hybrid": 0.864
+    },
+    "threshold_used": 0.5
+  }
+]
